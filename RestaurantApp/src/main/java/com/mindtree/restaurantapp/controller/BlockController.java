@@ -16,7 +16,7 @@ import com.mindtree.restaurantapp.service.impl.BlockServiceImpl;
 @RequestMapping("/block")
 public class BlockController {
 	
-	@Autowired
+	@Autowired//
 	private BlockServiceImpl service;
 	
 	@PostMapping("/addblock")
